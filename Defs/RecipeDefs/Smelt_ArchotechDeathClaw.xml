@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-    <RecipeDef>
-        <defName>Smelt_ArchotechDeathClaw</defName>
-        <label>Smelt death claw</label>
-        <description>Decompose an archotech death claw.</description>
-        <jobString>Smelting death claw.</jobString>
-        <workAmount>1000</workAmount>
-        <products>
-            <li>
-                <thingDef>ArchotechScrap</thingDef>
-                <count>5</count>
-            </li>
-        </products>
-        <ingredients>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>ArchotechDeathClaw</li>
-                    </thingDefs>
-                </filter>
-                <count>1</count>
-            </li>
-        </ingredients>
-    </RecipeDef>
-</Defs>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="ArchotechDeathClaw"]</xpath>
+        <order>Append</order>
+        <value>
+            <ingredients>
+                <li>
+                    <filter>
+                        <thingDefs>
+                            <li>ArchotechScrap</li>
+                        </thingDefs>
+                    </filter>
+                    <count>75</count>
+                </li>
+            </ingredients>
+            <fixedIngredientFilter>
+                <thingDefs>
+                    <li>ArchotechScrap</li>
+                </thingDefs>
+            </fixedIngredientFilter>
+            <products>
+                <ArchotechDeathClaw>1</ArchotechDeathClaw>
+            </products>
+        </value>
+    </Operation>
+</Patch>
