@@ -9,17 +9,19 @@
     </supportedVersions>
     <modDependencies>
         <li>
+            <displayName>Archotech Expanded Prosthetics</displayName>
             <packageId>Teok25.ArchotechExpanded.Prosthetics</packageId>
-        </li>
-        <li>
-            <displayName>More Archotech Garbage (Continued)</displayName>
-            <packageId>zal.morearchotechgarbage</packageId>
-            <steamWorkshopUrl>steam://url/CommunityFilePage/3241944893</steamWorkshopUrl>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/1467604976</steamWorkshopUrl>
         </li>
         <li>
             <displayName>Medical System Expansion 2</displayName>
             <packageId>MSE2.Core</packageId>
             <steamWorkshopUrl>steam://url/CommunityFilePage/2056706586</steamWorkshopUrl>
+        </li>
+        <li>
+            <displayName>More Archotech Garbage (Continued)</displayName>
+            <packageId>zal.morearchotechgarbage</packageId>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/3241944893</steamWorkshopUrl>
         </li>
     </modDependencies>
     <loadAfter>
