@@ -27,6 +27,7 @@
     <loadAfter>
         <li>Teok25.ArchotechExpanded.Prosthetics</li>
         <li>zal.morearchotechgarbage</li>
+        <li>MSE2.Core</li>
     </loadAfter>
     <description>Smelter recipe defs for materials for both the ArchotechDeathClaw and the ArchotechObliterator.</description>
 </ModMetaData>
