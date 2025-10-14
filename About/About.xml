@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Archotech Expanded Smelt Recipes</name>
+    <packageId>bardez.archotech.archotechexpanded.prosthetics</packageId>
+    <author>Bardez</author>
+    <url>steam://url/CommunityFilePage/???</url>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+		    <packageId>Teok25.ArchotechExpanded.Prosthetics</packageId>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>Teok25.ArchotechExpanded.Prosthetics</li>
+    </loadAfter>
+    <description>Smelter recipe defs for materials for both the ArchotechDeathClaw and the ArchotechObliterator.</description>
+</ModMetaData>
