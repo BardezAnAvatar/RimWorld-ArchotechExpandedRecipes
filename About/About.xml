@@ -12,9 +12,9 @@
             <packageId>Teok25.ArchotechExpanded.Prosthetics</packageId>
         </li>
         <li>
-            <name>More Archotech Garbage (Continued)</name>
+            <displayName>More Archotech Garbage (Continued)</displayName>
             <packageId>zal.morearchotechgarbage</packageId>
-            <author>Zaljerem</author>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/3241944893</steamWorkshopUrl>
         </li>
     </modDependencies>
     <loadAfter>
