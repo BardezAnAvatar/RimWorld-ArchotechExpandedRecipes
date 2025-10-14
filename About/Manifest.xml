@@ -5,6 +5,7 @@
     <dependencies>
         <li>Teok25.ArchotechExpanded.Prosthetics</li>
         <li>zal.morearchotechgarbage</li>
+        <li>MSE2.Core</li>
     </dependencies>
     <showCrossPromotions>true</showCrossPromotions>
 </Manifest>

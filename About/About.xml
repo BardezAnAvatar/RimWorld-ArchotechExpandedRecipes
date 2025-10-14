@@ -16,6 +16,11 @@
             <packageId>zal.morearchotechgarbage</packageId>
             <steamWorkshopUrl>steam://url/CommunityFilePage/3241944893</steamWorkshopUrl>
         </li>
+        <li>
+            <displayName>Medical System Expansion 2</displayName>
+            <packageId>MSE2.Core</packageId>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2056706586</steamWorkshopUrl>
+        </li>
     </modDependencies>
     <loadAfter>
         <li>Teok25.ArchotechExpanded.Prosthetics</li>
