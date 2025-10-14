@@ -9,11 +9,17 @@
     </supportedVersions>
     <modDependencies>
         <li>
-		    <packageId>Teok25.ArchotechExpanded.Prosthetics</packageId>
+            <packageId>Teok25.ArchotechExpanded.Prosthetics</packageId>
+        </li>
+        <li>
+            <name>More Archotech Garbage (Continued)</name>
+            <packageId>zal.morearchotechgarbage</packageId>
+            <author>Zaljerem</author>
         </li>
     </modDependencies>
     <loadAfter>
         <li>Teok25.ArchotechExpanded.Prosthetics</li>
+        <li>zal.morearchotechgarbage</li>
     </loadAfter>
     <description>Smelter recipe defs for materials for both the ArchotechDeathClaw and the ArchotechObliterator.</description>
 </ModMetaData>
