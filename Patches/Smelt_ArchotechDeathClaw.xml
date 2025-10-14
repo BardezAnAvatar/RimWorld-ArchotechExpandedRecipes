@@ -2,26 +2,11 @@
 <Patch>
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="ArchotechDeathClaw"]</xpath>
-        <order>Append</order>
         <value>
-            <ingredients>
-                <li>
-                    <filter>
-                        <thingDefs>
-                            <li>ArchotechScrap</li>
-                        </thingDefs>
-                    </filter>
-                    <count>75</count>
-                </li>
-            </ingredients>
-            <fixedIngredientFilter>
-                <thingDefs>
-                    <li>ArchotechScrap</li>
-                </thingDefs>
-            </fixedIngredientFilter>
-            <products>
-                <ArchotechDeathClaw>1</ArchotechDeathClaw>
-            </products>
+            <costList>
+                <ArchotechScrap>75</ArchotechScrap>
+                <ComponentSpacer>5</ComponentSpacer>
+            </costList>
         </value>
     </Operation>
 </Patch>
